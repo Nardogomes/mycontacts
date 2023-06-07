@@ -6,7 +6,6 @@ import defaultTheme from '../../assets/styles/themes/default';
 import { Header } from '../Header';
 
 import { Container } from './styles';
-import logo from '../../assets/images/logo.svg';
 
 function App() {
   return (
@@ -14,8 +13,6 @@ function App() {
       <GlobalStyles />
 
       <Container>
-        <img src={logo} alt="Mycontacts" />
-
         <Header />
       </Container>
     </ThemeProvider>
