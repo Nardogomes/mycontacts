@@ -12,4 +12,4 @@ app.use(cors);
 app.use(routes);
 app.use(errorHandler);
 
-app.listen(3001, () => console.log('Server is running on http://localhost:3000'));
+app.listen(3001, () => console.log('Server is running on http://localhost:3001'));
