@@ -52,7 +52,6 @@ export const Header = styled.header`
 
 export const ListHeader = styled.header`
   margin-top: 24px;
-
   margin-bottom: 8px;
 
   button {
