@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Loader from '../../components/Loader';
 
-import delay from '../../utils/delay';
+import ContactsService from '../../services/ContactsService';
 
 import {
   Container, InputSearchContainer, Header, ListHeader, Card,
@@ -28,14 +28,9 @@ export default function Home() {
       try {
         setIsLoading(true);
 
-        const response = await fetch(
-          `http://localhost:3001/contacts?orderBy=${orderBy}`,
-        );
+        const contactsList = await ContactsService.listContacts(orderBy);
 
-        await delay(600);
-
-        const data = await response.json();
-        setContacts(data);
+        setContacts(contactsList);
       } catch (error) {
         console.log('Error: ', error);
       } finally {
