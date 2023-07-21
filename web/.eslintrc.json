@@ -23,6 +23,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
     "react/jsx-no-bind": "off",
-    "no-promise-executor-return": "off"
+    "no-promise-executor-return": "off",
+    "class-methods-use-this": "off"
   }
 }
