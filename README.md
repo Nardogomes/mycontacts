@@ -3,7 +3,7 @@
 
 <p>
   Este projeto é o desenvolvimento da prática do curso JStack ministrada pelo professor Mateus Silva (maateusilva).
-  Trata-se de um projeto de ma agenta para genciar seus contatos.
+  Trata-se de um projeto de uma agenda para gerenciar seus contatos.
 </p>
 
 ## Tecnologias utilizadas:
