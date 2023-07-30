@@ -73,7 +73,7 @@ export default function Home() {
       </Header>
 
       {filteredContacts.length > 0 && (
-        <ListHeader orderBy={orderBy}>
+        <ListHeader orderby={orderBy}>
           <button type="button" onClick={handleToggleOrderBy}>
             <span>Nome</span>
             <img src={arrow} alt="arrow" />
