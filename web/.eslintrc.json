@@ -25,6 +25,7 @@
     "react/jsx-no-bind": "off",
     "no-promise-executor-return": "off",
     "class-methods-use-this": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "no-empty":["error", {"allowEmpytCatch": true}]
   }
 }
