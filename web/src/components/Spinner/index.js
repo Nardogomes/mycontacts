@@ -12,4 +12,4 @@ Spinner.propTypes = {
 
 Spinner.defaultProps = {
   size: 32,
-}
+};

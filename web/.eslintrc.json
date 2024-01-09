@@ -26,6 +26,6 @@
     "no-promise-executor-return": "off",
     "class-methods-use-this": "off",
     "react/no-unescaped-entities": "off",
-    "no-empty":["error", {"allowEmpytCatch": true}]
+    "no-empty": ["error", { "allowEmptyCatch": true }]
   }
 }
